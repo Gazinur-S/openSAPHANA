@@ -9,4 +9,5 @@ module.exports = (app, server) => {
 	app.use("/node/os/web",express.static("os_web"));
 	app.use("/node/os", require("./routes/os")());
 	app.use("/node/excAsync", require("./routes/exerciseAsync")(server));
+	// 
 };
