@@ -59,6 +59,7 @@ modules:
           url: '~{url}'
           forwardAuthToken: true
       - name: openSAPHANA_00-ui5
+      - name: openSAPHANA_00-uaa
   - name: user_db
     type: hdb
     path: user_db
